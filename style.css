@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border : 2px solid black;
+    height: 200px;
+    justify-content: center;
+    /* you can add justify-content: flex-start and flex-end; */
+    align-items: center;
+/* flex-wrap pani is a property of a flex-container */
+     flex-wrap: wrap; 
+    /* flex-flow: column wrap; */
+}
+.box{
+    border : 2px solid black;
+    margin : 4px;
+    background-color: red;
+    width :  122px;
+    height : 122px;
+}
+.box-1{
+    /* order : 4;
+    
+    flex-grow: 40;
+    flex-shrink: 4; */
+    align-self: baseline;
+}
+
